@@ -16,17 +16,17 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
+      <h1>Monorepo Subtree Push 测试</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
         <p>
-          Edit <code>src/App.tsx</code> 22333
+          前端已更新：同时验证前后端 subtree push，同步无压力。
         </p>
       </div>
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+        后端也会返回新的健康检查接口 /health，方便一起测通。
       </p>
     </>
   )
